@@ -1,0 +1,25 @@
+total = 0
+for i in range (6):
+    marks = int(input("Enter the marks:"))
+    Subject_name = input("Enter the Subject name:")
+    total += marks
+    if 35 <= marks < 50:
+        print("Pass Grade D")
+        print(Subject_name.upper())
+    elif 50 <= marks < 65:
+        print("Pass Grade C")
+        print(Subject_name.upper())
+    elif 65 <= marks < 85:
+        print("Pass Grade B")
+        print(Subject_name.upper())
+    elif 85 <= marks < 95:
+        print("Pass Grade A")
+        print(Subject_name.upper())
+    elif 95 <= marks <= 100:
+        print("Pass  Grade A++")
+        print(Subject_name.upper())
+    else:
+        print("fail")
+        print(Subject_name.upper())
+print(total)
+print("Percentage%", total/6)
