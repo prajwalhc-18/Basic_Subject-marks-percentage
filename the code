@@ -21,5 +21,5 @@ for i in range (6):
     else:
         print("fail")
         print(Subject_name.upper())
-print(total)
+print("Total Marks:"total)
 print("Percentage%", total/6)
